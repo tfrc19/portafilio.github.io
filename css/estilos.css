@@ -1,0 +1,196 @@
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    background: #281a0c;
+    background-image: url('../colores.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+    opacity:1;
+    height: 720px;
+    /*position: relative;*/
+}
+
+header .container .row  .textos{
+    width: 100%;
+    color: #fff;
+    /*position: absolute;
+    top: 75%;
+    margin-top: -10px;*/
+    font-weight: bold;
+}
+header .container{
+    position: absolute;
+    top: 75%;
+    margin-top: -10px;
+    margin-left: 15%;
+}
+header .container .row  .textos p{
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    
+}
+
+
+
+header .textos{
+    position: absolute;
+    top: 75%;
+    margin-top: -10px;
+    margin-left: 15%;
+    color: #fff;
+    /*position: absolute;
+    top: 75%;
+    margin-top: -10px;*/
+    font-weight: bold;
+}
+
+.navbar {
+    background-color:  #ffffff;
+    opacity: 1;
+    
+  }
+
+.content {
+    margin-top: 10px;
+}
+
+.menu-padding {
+    padding-top: 40px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.sticky {
+    /*position: fixed;
+    top: 0;
+    width: 100%;*/
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.color-nav {
+    background-color: #ffffff;
+}
+
+.cabecera-imagen{
+    width:100%;
+    height:720px;
+
+}
+.cabecera-imagen img{
+    width:100%;
+    height:100%;
+    
+    
+
+}
+
+.color-de-nav{
+    background-color: red;
+    opacity: 1;
+}
+
+
+/* modificacion de los botones del nav */
+.menu-plegado ul{
+color: red !important;
+display: inline-block;
+}
+.menu-plegado ul li{
+    float: left;
+    margin-right: 15px;
+
+}
+.menu-plegado ul li a{
+    color: #000000!important;
+    text-weight:bold!important;
+    font-size: 15px;
+}
+
+.menu-plegado ul li a:hover{
+    color: #cccccc!important;
+}
+
+.activo{
+    color: red!important;
+}
+
+.dow-up{
+    margin-right: 50px;
+}
+.dow-up a{
+    color: #cccccc;
+}
+#menu{
+    border-bottom: 1px solid rgba(245, 245, 245, 1);
+}
+.titulo-menu{
+    display: none;
+}
+
+
+@media screen and (max-width:700px)
+{
+    header {
+        height: 650px;
+    }
+    header .container{
+       margin-left: 20px;
+       top: 80%;
+    }
+    header .container .row .textos h1{
+        font-size: 25px;
+    }
+    header .container .row  .textos p{
+        font-size: 10px;
+        font-weight: normal;
+        line-height: 20px;
+    }
+
+
+    header  .textos h1{
+        font-size: 25px;
+    }
+    header  .textos p{
+        font-size: 10px;
+        font-weight: normal;
+        line-height: 20px;
+    }
+
+    .menu-plegado{
+        justify-content: center !important;
+       
+    }
+    .menu-plegado ul{
+        color: red !important;
+        display: inline-flex;
+        }
+        .navbar-collapse{
+            display: inline-block;
+        }
+
+    .dow-up{
+        display: none;
+    }
+    .titulo-menu{
+        display: block;
+        margin-left: 7px;
+        color: #000000;
+        font-weight: 800!important;
+    }
+
+}
+
+
