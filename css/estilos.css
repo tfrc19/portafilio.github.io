@@ -140,6 +140,44 @@ display: inline-block;
     display: none;
 }
 
+/*Seccion Inicio*/
+.content .container .row{
+    align-items: center;
+}
+.content .container .row .seccion-inicio{
+max-width: 700px;
+margin:0px auto;
+margin-top: 80px;
+}
+.content .container .row .seccion-inicio  .titulo{
+    line-height:16px;
+    margin-bottom: 80px;
+    text-align: start;
+    text-transform: uppercase;
+}
+.content .container .row .seccion-inicio  .titulo h2{
+   font-size: 20px!important;
+   font-weight: bold!important;
+   color: #000000;
+   line-height: 16px;
+}
+.content .container .row .seccion-inicio .contenido-inicio .row .info-personal{
+    padding: 0px 5px;
+}
+.content .container .row .seccion-inicio .contenido-inicio .row .info-personal p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+}
+.content .container .row .seccion-inicio .contenido-inicio .row .imagen{
+    
+}
+.content .container .row .seccion-inicio .contenido-inicio .row .imagen img{
+    border-radius: 50%;
+}
+
+
 
 @media screen and (max-width:700px)
 {
@@ -168,7 +206,15 @@ display: inline-block;
         font-weight: normal;
         line-height: 20px;
     }
-
+    .content .container .row .seccion-inicio{
+        margin-top: 20px;
+    }
+    .content .container .row .seccion-inicio  .titulo{
+        margin-bottom: 20px;
+    }
+    .content .container .row .seccion-inicio  .titulo h2{
+        font-size: 20px;
+    }
     .menu-plegado{
         justify-content: center !important;
        
@@ -190,6 +236,22 @@ display: inline-block;
         color: #000000;
         font-weight: 800!important;
     }
+    .content .container .row .seccion-inicio .contenido-inicio .row .info-personal{
+        padding: 0px;
+    }
+    .content .container .row .seccion-inicio .contenido-inicio .row .info-personal p{
+        font-size: 14px;
+    }
+
+    .content .container .row .seccion-inicio .contenido-inicio .row .imagen {
+        align-items:center;
+    }
+    .content .container .row .seccion-inicio .contenido-inicio .row .imagen img{
+        border-radius: 50%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
 
 }
 
