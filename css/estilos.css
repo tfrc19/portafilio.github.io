@@ -62,6 +62,8 @@ header .textos{
     margin-top: 10px;
 }
 
+
+
 .menu-padding {
     padding-top: 40px;
 }
@@ -148,10 +150,22 @@ display: inline-block;
     max-width: 700px;
     margin:0px auto;
 }
+.content .container .contenido-acerca-de{
+    align-items: center;
+    max-width: 1000px;
+    margin:0px auto;
+}
 .content .container .row .seccion-inicio{
 /*max-width: 700px;*/
 
 margin-top: 80px;
+}
+.content .container .row .seccion-inicio .contenido-inicio .row{
+    max-width: 900px;
+    
+}
+.content .container .row .seccion-inicio .contenido-inicio .row .info .info-personal p{
+line-height: 30px;
 }
 .content .container .row .seccion-inicio  .titulo{
     line-height:16px;
@@ -292,4 +306,49 @@ color: #3b5998;
 }
 
 
+/*Seccion acerca-de*/
 
+.header2{
+    width: 100%;
+    background: #281a0c;
+    background-image: url('../colores.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+    opacity:1;
+    height: 200px;
+}
+.header2 .textos{
+    position: absolute;
+    top: 10%;
+    margin-top: -10px;
+    margin-left: 15%;
+    color: #fff;
+    /*position: absolute;
+    top: 75%;
+    margin-top: -10px;*/
+    font-weight: bold;
+}
+
+.content .container .contenido-acerca-de .otros{
+margin-top: 30px;
+}
+.content .container .contenido-acerca-de .otros .titulo{
+    margin-left: 20px!important;
+    margin-top: 20px;
+}
+.content .container .contenido-acerca-de .otros .titulo h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.content .container .contenido-acerca-de .otros .contenido-otros{
+   
+}
+.content .container .contenido-acerca-de .otros .contenido-otros .row{
+    max-width: 900px!important;
+    
+}
+.content .container .contenido-acerca-de .otros .contenido-otros .row .info{
+    max-width: 900px;
+}
