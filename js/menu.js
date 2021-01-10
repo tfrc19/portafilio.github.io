@@ -35,7 +35,6 @@ $(document).ready(function(){
         return rutaRelativa;  
     }
 
-  
     /*
     if(filename()=='index.html'){
         inicio.addClass("text-light"); 
