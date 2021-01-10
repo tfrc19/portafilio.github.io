@@ -10,10 +10,12 @@ $(document).ready(function () {
                 $('#menu').addClass('sticky');
                 $('.content').addClass('menu-padding');
                 $('#navbar').addClass('fixed-top');
+                $('#dow-up').css("display","none");
             } else {
                 $('#menu').removeClass('sticky');
                 $('.content').removeClass('menu-padding');
                 $('#navbar').removeClass('fixed-top');
+                $('#dow-up').css("display","block");
             }
 
 
