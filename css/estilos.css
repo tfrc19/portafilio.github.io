@@ -8,7 +8,7 @@
 header{
     width: 100%;
     background: #281a0c;
-    background-image: url('../colores.jpg');
+    background-image: url('../img/colores.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
@@ -169,16 +169,17 @@ line-height: 30px;
 }
 .content .container .row .seccion-inicio  .titulo{
     line-height:16px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     text-align: start;
     text-transform: uppercase;
+    
 }
 .content .container .row .seccion-inicio  .titulo h2{
-   font-size: 20px!important;
+   font-size: 18px!important;
    font-weight: bold!important;
    color: #000000;
    line-height: 16px;
-}
+   font-family:sans-serif;}
 .content .container .row .seccion-inicio .contenido-inicio .row .info-personal{
     padding: 0px 5px;
 }
@@ -311,7 +312,7 @@ color: #3b5998;
 .header2{
     width: 100%;
     background: #281a0c;
-    background-image: url('../colores.jpg');
+    background-image: url('../img/colores.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
@@ -335,7 +336,7 @@ margin-top: 30px;
 }
 .content .container .contenido-acerca-de .otros .titulo{
     margin-left: 20px!important;
-    margin-top: 20px;
+    margin-top:20px;
 }
 .content .container .contenido-acerca-de .otros .titulo h2{
     font-family: sans-serif;
@@ -351,4 +352,32 @@ margin-top: 30px;
 }
 .content .container .contenido-acerca-de .otros .contenido-otros .row .info{
     max-width: 900px;
+}
+
+
+.content .container .row .seccion-inicio .contenido-inicio .row .info .info-personal .titulo{
+    margin-bottom: 0px;
+}
+.content .container .row .seccion-inicio .contenido-inicio .row .info .info-personal .titulo p {
+    line-height: 16px;
+    font-size: 10px;
+    text-align: start;
+    text-transform: none;
+}
+.content .container .row .seccion-inicio .contenido-inicio .row .info .info-personal .tecnologias{
+    margin-bottom: 0px;
+}
+.content .container .row .seccion-inicio .contenido-inicio .row .info .info-personal .tecnologias p{
+font-size: 14px;
+line-height: 16px;
+text-align: start;
+}
+
+.content .container .row .seccion-inicio .contenido-inicio .proyectos{
+border-bottom: 1px dotted #cccccc;
+    
+}
+
+.content .container .row .seccion-inicio .contenido-inicio .row .info .imagen-proyecto{
+    margin-top: 40px;
 }
