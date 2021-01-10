@@ -34,6 +34,8 @@ $(document).ready(function(){
         var rutaRelativa = rutaAbsoluta.substring( posicionUltimaBarra + "/".length , rutaAbsoluta.length );
         return rutaRelativa;  
     }
+
+  
     /*
     if(filename()=='index.html'){
         inicio.addClass("text-light"); 

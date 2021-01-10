@@ -2,8 +2,11 @@ $(document).ready(function () {
 
         var menu = $('#menu');
         var navbar = $('navbar');
+        var contenidoMenu=$('#contenidoMenu');
         //var menu =$('#navid');
         var origOffsetY = menu.offset().top;
+        var seccionInicio = contenidoMenu.offset().top;
+
 
         function scroll() {
             if ($(window).scrollTop() >= origOffsetY) {
@@ -22,6 +25,13 @@ $(document).ready(function () {
 
 
         }
+
+        $('#dow-up').on('click',function(e){
+           e.preventDefault();
+            $('html,body').animate({
+                scrollTop:seccionInicio
+            },500);
+        });
         /*
         function scroll(){
                 if ($(window).scrollTop() >= origOffsetY) {
