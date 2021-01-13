@@ -315,6 +315,7 @@ color: #3b5998;
     background: #281a0c;
     /*background-image: url('../img/colores.jpg');*/
     background: url('../img/stars.mp4');
+    
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
