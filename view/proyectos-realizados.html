@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/mediaQuerys.css">
-    <link rel="stylesheet" href="css/blog.css">
-    
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/mediaQuerys.css">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/estilos-leng-herr.css">
     <title>Portafolio personal</title>
 </head>
 <style>
@@ -30,6 +30,7 @@
     </header>
 
     <section id="menu">
+
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -44,7 +45,7 @@
                             <div class="collapse navbar-collapse" id="collapsibleNavId">
                                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="index.html" id="inicio">Inicio <span
+                                        <a class="nav-link" href="../index.html" id="inicio">Inicio <span
                                                 class="sr-only">(current)</span></a>
                                     </li>
 
@@ -53,18 +54,16 @@
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acerca
                                             de</a>
                                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                            <a class="dropdown-item" href="acerca-de.html">Conoceme</a>
-                                            <a class="dropdown-item" href="proyectos-realizados.html">Proyectos
-                                                realizados</a>
-                                            <a class="dropdown-item" href="lenguajes-y-herramientas.html">Lenguajes y
-                                                Herramientas</a>
+                                            <a class="dropdown-item" href="../view/acerca-de.html">Conoceme</a>
+                                            <a class="dropdown-item" href="../view/proyectos-realizados.html">Proyectos realizados</a>
+                                            <a class="dropdown-item" href="../view/lenguajes-y-herramientas.html">Lenguajes y Herramientas</a>
                                         </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="blog.html" id="blog">Blog</a>
+                                        <a class="nav-link" href="../view/blog.html" id="blog">Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contacto.html" id="contacto">Contacto</a>
+                                        <a class="nav-link" href="../view/contacto.html" id="contacto">Contacto</a>
                                     </li>
                                 </ul>
                                 <div class="dow-up" id="dow-up">
@@ -79,116 +78,55 @@
         </div>
     </section>
 
-    <section id="contenidoMenu"> 
-        <div class="container " id="contenedor-blog">
-            <div class="row blog">
-                <div class="col-12">
-                    <div class="container">
-                        <div class="titulo">
-                            <h4>Blog</h4>
-                        </div>
+    <section class="content" id="contenidoMenu">
+        <div class="container">
+            <div class="row contenido-acerca-de">
+                <div class="col-12 seccion-inicio">
+                    <div class="titulo">
+                        <h2>Proyectos realizados</h2>
                     </div>
+                    <div class="contenido-inicio">
+                        <div class="row proyectos">
+                            <div class="col-md-3 col-12  info">
+                                <div class="info-personal ">
+                                    <div class="titulo">
+                                        <p><i>Sistema para la predicción de la Temperatura aplicando Inteligencia Artificial</i></p>
+                                    </div>
+                                    <div class="tecnologias">
+                                        <p><strong>Tecnologias: </strong>  PHP, MYSQL, ARDUINO, SASS, SENSORES ELECTRONICOS, AWS.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-12  info">
+                                <div class="imagen-proyecto">
+                                    <img src="../img/proyectos/1.png" class="img-fluid" alt="Proyecto 1">
+                                </div>
+                            </div>
+                        </div>
 
-                </div>
-                <div class="col-12">
-                    <div class="container">
-                        <div class="numero-mensajes">
-                            <p><i>2 mensajes recibidos en el "Blog"</i></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mensajes">
-                <div class="col-2 col-md-1">
-                    <div class="imagen">
-                        <a href="#"><i class="fas fa-user"></i></a>
-                    </div>
-                </div>
-                <div class="col-10 col-md-11">
-                    <div class="mensajes">
-                        <div class="informacion-mensaje">
-                            <div class="nombre">
-                               <p>Fernando roque colt</p> 
+                        <div class="row ">
+                            <div class="col-md-4 col-12  info">
+                                <div class="info-personal ">
+                                    <div class="titulo">
+                                        <p><i>Sistema para la predicción de la Temperatura aplicando Inteligencia Artificial</i></p>
+                                    </div>
+                                    <div class="tecnologias">
+                                        <p><strong>Tecnologias: </strong>PYTHON, MYSQL, PHP, SASS, TENSORFLOW, KERAS, NUMPY.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="fecha">
-                               <p><i>11 de enero del 2021</i></p> 
+                            <div class="col-md-8 col-12  info">
+                                <div class="imagen-proyecto">
+                                    <img src="../img/proyectos/2.png" class="img-fluid" alt="Proyecto 2">
+                                </div>
                             </div>
                         </div>
-                        <div class="contenido-mensaje">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, eius!</p> 
-                        </div>
+
                     </div>
-                    
-                </div>
-            </div>
-            <div class="row mensajes">
-                <div class="col-2 col-md-1">
-                    <div class="imagen">
-                        <a href="#"><i class="fas fa-user"></i></a>
-                    </div>
-                </div>
-                <div class="col-10 col-md-11">
-                    <div class="mensajes">
-                        <div class="informacion-mensaje">
-                            <div class="nombre">
-                               <p>Fernando roque colt</p> 
-                            </div>
-                            <div class="fecha">
-                               <p><i>11 de enero del 2021</i></p> 
-                            </div>
-                        </div>
-                        <div class="contenido-mensaje">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, eius!</p> 
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
         </div>
-
-
-        <div class="container " id="contenedor-blog">
-            <div class="row blog">
-                <div class="col-12">
-                    <div class="container">
-                        <div class="titulo">
-                            <h4>Deja tu Comentario</h4>
-                        </div>
-                    </div>
-
-                </div>
-               
-            </div>
-            <div class="row mensajes">
-                <div class="col-12">
-                    <div class="formulario">
-                        <form action="#" class="form">
-                            <div class="form-group">
-                                <label for="">Comentario</label>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Hola, te saludo.."></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Nombre</label>
-                                <input type="text" name="" id="" placeholder="Fernando">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Correo Electronico</label>
-                                <input type="text" name="" id="" placeholder="correo@correo.com">
-                            </div>
-
-                            <input type="submit" class="btn btn-md btn-dark" value="Enviar">
-                            
-                        </form>
-                    </div>
-                </div>
-            </div>
-           
-        </div>
-
-        
     </section>
-
-  
 
     <footer class="content_contacto" id="contentidoContacto">
         <div class="container">
@@ -240,7 +178,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 </body>
-<script src="js/stick.js"></script>
-<script src="js/menu.js"></script>
+<script src="../js/stick.js"></script>
+<script src="../js/menu.js"></script>
 
 </html>

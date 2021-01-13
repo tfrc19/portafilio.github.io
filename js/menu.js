@@ -36,7 +36,7 @@ $(document).ready(function(){
     }
     
     $(inicio).on('click',function(e){
-        location.href("index.html");
+        location.href("../index.html");
         e.preventDefault();
     });
     $(dropdownId).on('click',function(e){
@@ -45,11 +45,11 @@ $(document).ready(function(){
         
     });
     $(blog).on('click',function(e){
-        location.href("blog.html");
+        location.href("../view/blog.html");
         e.preventDefault();
     });
     $(contacto).on('click',function(e){
-        location.href("contacto.html");
+        location.href("../view/contacto.html");
         e.preventDefault();
     });
 
