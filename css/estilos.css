@@ -8,7 +8,8 @@
 header{
     width: 100%;
     background: #281a0c;
-    background-image: url('../img/colores.jpg');
+    background: url('../img/space.mp4');
+    /*background-image: url('../img/colores.jpg');*/
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
@@ -312,7 +313,8 @@ color: #3b5998;
 .header2{
     width: 100%;
     background: #281a0c;
-    background-image: url('../img/colores.jpg');
+    /*background-image: url('../img/colores.jpg');*/
+    background: url('../img/stars.mp4');
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
