@@ -6,6 +6,7 @@ $(document).ready(function () {
         //var menu =$('#navid');
         var origOffsetY = menu.offset().top;
         var seccionInicio = contenidoMenu.offset().top;
+        
 
 
         function scroll() {
@@ -14,11 +15,16 @@ $(document).ready(function () {
                 $('.content').addClass('menu-padding');
                 $('#navbar').addClass('fixed-top');
                 $('#dow-up').css("display","none");
-            } else {
+                //$('#blog').css("display","none");
+                
+                       } 
+                       
+                       else {
                 $('#menu').removeClass('sticky');
                 $('.content').removeClass('menu-padding');
                 $('#navbar').removeClass('fixed-top');
                 $('#dow-up').css("display","block");
+                $('#blog').addClass('sticky');
             }
 
 

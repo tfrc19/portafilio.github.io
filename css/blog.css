@@ -27,19 +27,27 @@
     font-family: sans-serif;
     font-family: 8px!important;
     font-weight: bold;
-    line-height: 16px;   
+    line-height: 16px; 
+    color: #cccccc;  
 }
 .container .mensajes{
     margin-bottom: 40px;
 }
 .container .mensajes .imagen{
     align-items: center;
+    background-color: #cccccc;
+    width: 60px;
+    height: 60px;
+    text-align: center;
 }
 .container .mensajes .imagen a{
-    color: #000000;
+    color: #ffffff;
     font-size: 50px;
 }
-
+.container .mensajes .imagen:hover{
+    background-color: #000000;
+    
+}
 .container .mensajes .mensajes{
     margin-left: 10px;
 }
@@ -80,3 +88,72 @@ padding: 0px;
     text-transform: uppercase;
     text-align: justify;
 }
+.mensajes .formulario{
+    text-align: center;
+}
+.mensajes .formulario-contacto{
+    box-shadow:  5px 10px 10px #cccccc;
+    
+
+}
+.mensajes .formulario .form-group{
+    width: 100%;
+    margin-top: 40px;
+
+}
+.mensajes .formulario .form-group label{
+    
+    /*margin-left: 40px;*/
+    width: 90%;
+    font-family: sans-serif;
+    color: #000000;
+    font-weight: bold;
+    text-align: start;
+    
+}
+.mensajes .formulario .form-group textarea{
+    max-width: 90%;
+    width: 100%;
+   
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.mensajes .formulario .form-group input[type="text"],
+.mensajes .formulario .form-group input[type="emaill"]{
+    max-width: 90%;
+    width: 100%;
+    /*margin: 0px 40px;*/
+    padding: 5px 0px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.mensajes .formulario .form-group input[type="text"]:focus,
+.mensajes .formulario .form-group textarea:focus,
+.mensajes .formulario .form-group input[type="email"]:focus
+{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mensajes .formulario{
+
+}
+.mensajes .formulario  input[type="submit"]{
+    background-color: #000000!important;
+    padding: 10px 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    
+
+}
+.mensajes .formulario  input[type="submit"]:hover{
+    background-color: #ffffff!important;
+    color: #000000;
+   
+}
+
+
+
