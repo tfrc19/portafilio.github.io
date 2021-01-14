@@ -27,7 +27,15 @@ $(document).ready(function(){
     dropdownId=$('#acerca-de'),
     blog=$('#blog'),
     contacto=$('#contacto');
-    var ventana_alto = $(window).height();
+    var ventana_alto = $(window).height(),
+        ventana_ancho = $(window).width();
+        /*if(ventana_ancho>700){
+            $('#logo-flotante').css('width','5%');
+        }
+        else
+        {
+            $('#logo-flotante').css('width','20%');
+        }*/
     $('#logo-flotante').css('bottom',0);
     //alert(ventana_alto);
 

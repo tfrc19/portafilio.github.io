@@ -140,7 +140,11 @@ display: inline-block;
 margin-top: 80px;
 }
 .content .container .row .seccion-inicio .logo{
-    width: 6%;
+    width: 5%;
+    margin: 0px auto;
+}
+.logo{
+    width: 5%;
     margin: 0px auto;
 }
 .content .container .row .seccion-inicio .logo img{
