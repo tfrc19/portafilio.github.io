@@ -27,6 +27,9 @@ $(document).ready(function(){
     dropdownId=$('#acerca-de'),
     blog=$('#blog'),
     contacto=$('#contacto');
+    var ventana_alto = $(window).height();
+    $('#logo-flotante').css('bottom',0);
+    //alert(ventana_alto);
 
     function filename(){
         var rutaAbsoluta = self.location.href;   

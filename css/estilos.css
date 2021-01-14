@@ -139,6 +139,13 @@ display: inline-block;
 
 margin-top: 80px;
 }
+.content .container .row .seccion-inicio .logo{
+    width: 6%;
+    margin: 0px auto;
+}
+.content .container .row .seccion-inicio .logo img{
+
+}
 .content .container .row .seccion-inicio .contenido-inicio .row{
     max-width: 900px;
     
@@ -349,4 +356,11 @@ border-bottom: 1px dotted #cccccc;
 }
 .content .container .row .seccion-inicio .contenido-inicio .row .info .imagen-proyecto{
     margin-top: 40px;
+}
+
+.flotante {
+    display:scroll;
+        position:fixed;
+        /*bottom:400px;*/
+        right:0px;
 }
