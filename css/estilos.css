@@ -11,6 +11,8 @@ header{
     background: url('../img/space.mp4');
     background-image: url('../img/colores.jpg');
     background-size: cover;
+    /*background-size: 100%;
+    background-repeat: no-repeat;*/
     background-attachment: fixed;
     background-position: center 0;
     opacity:1;
@@ -57,11 +59,11 @@ header .textos{
 .content p {
     margin-bottom: 20px;
 }
-.sticky {
-    /*position: fixed;
+/*.sticky {
+    position: fixed;
     top: 0;
-    width: 100%;*/
-}
+    width: 100%;
+}*/
 
 .sticky+.content {
     padding-top: 60px;
@@ -96,7 +98,7 @@ display: inline-block;
 }
 .menu-plegado ul li a{
     color: #000000!important;
-    text-weight:bold!important;
+/*text-weight:bold!important;*/
     font-size: 15px;
 }
 
@@ -146,9 +148,6 @@ margin-top: 80px;
 .logo{
     width: 5%;
     margin: 0px auto;
-}
-.content .container .row .seccion-inicio .logo img{
-
 }
 .content .container .row .seccion-inicio .contenido-inicio .row{
     max-width: 900px;
@@ -329,9 +328,7 @@ margin-top: 30px;
     font-weight: bold;
     font-size: 16px;
 }
-.content .container .contenido-acerca-de .otros .contenido-otros{
-   
-}
+
 .content .container .contenido-acerca-de .otros .contenido-otros .row{
     max-width: 900px!important;
     

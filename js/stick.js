@@ -7,14 +7,19 @@ $(document).ready(function () {
         var origOffsetY = menu.offset().top;
         var seccionInicio = contenidoMenu.offset().top;
         
-
-
+       
+        //alert( $('<header>'));
+        //$('.textos').hide();
         function scroll() {
+            
+            $('#contenidoMenu').show(2000);
             if ($(window).scrollTop() >= origOffsetY) {
                 $('#menu').addClass('sticky');
                 $('.content').addClass('menu-padding');
                 $('#navbar').addClass('fixed-top');
                 $('#dow-up').css("display","none");
+                
+                
                 //$('#blog').css("display","none");
                 
                        } 
@@ -25,6 +30,8 @@ $(document).ready(function () {
                 $('#navbar').removeClass('fixed-top');
                 $('#dow-up').css("display","block");
                 $('#blog').addClass('sticky');
+                
+                //$('.textos').slideToggle(1000);
             }
 
 

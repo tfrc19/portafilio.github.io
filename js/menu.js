@@ -46,7 +46,7 @@ $(document).ready(function(){
         return rutaRelativa;  
     }
     
-    $(inicio).on('click',function(e){
+    /*$(inicio).on('click',function(e){
         location.href("../index.html");
         e.preventDefault();
     });
@@ -62,7 +62,7 @@ $(document).ready(function(){
     $(contacto).on('click',function(e){
         location.href("../view/contacto.html");
         e.preventDefault();
-    });
+    });*/
 
     /*
     if(filename()=='index.html'){
