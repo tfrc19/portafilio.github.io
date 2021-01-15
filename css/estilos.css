@@ -300,10 +300,11 @@ color: #3b5998;
     background: #281a0c;
     background: url('../img/stars.mp4');
     background-image: url('../img/espacio2.jpg');
-
-    background-size: cover;
+    /*background-size: cover;*/
+    background-size: 100%;
     background-attachment: fixed;
     background-position: center 0;
+    background-repeat: no-repeat;
     opacity:1;
     height: 200px;
 }

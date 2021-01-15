@@ -16,7 +16,11 @@
         line-height: 20px;
     }
 
-
+    .header2 .textos {
+       
+        top: 17%;
+        
+    }
     header  .textos h1{
         font-size: 25px;
     }
