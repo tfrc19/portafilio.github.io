@@ -279,6 +279,9 @@ color: #3b5998;
 .content_contacto .container .enlaces-sociales .likedin:hover{
     color: #0e76a8;
 }
+.content_contacto .container .enlaces-sociales .github:hover{
+    color: #cccccc;
+}
 
 .content_contacto .container .copyright{
     justify-content: start;
@@ -366,3 +369,40 @@ border-bottom: 1px dotted #cccccc;
         /*bottom:400px;*/
         right:0px;
 }
+.span-view{
+    font-size: 40px!important;
+}
+.span-view .arrow{
+    columns: #000000!important;
+}
+/*Modificacion del carrousel*/
+.carousel .carousel-indicators li{
+    width: 8px!important;
+    height: 8px!important;
+    border-radius: 50%;
+}
+.carousel-inner .carousel-item .imagenes-carrousel{
+    width: 100%;
+    height: 450px;
+  
+}
+
+.carousel-inner .titulo{
+   
+    margin-bottom: 0px!important;
+}
+.carousel-inner .titulo p{
+    margin: 0px;
+    color: #000000 ;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.carousel-inner .tecnologias p{
+    margin: 0px;
+    color: #000000 ;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
