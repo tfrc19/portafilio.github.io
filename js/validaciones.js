@@ -4,6 +4,7 @@ $(window).ready(function(){
         email = $('#email'),
         asunto = $('#asunto'),
         btnEnviar = $('#enviar');
+        
 
     var alertaMensajes = $('#alerta-mensajes');
         function validarMensaje(ul, mensaje,e)
@@ -53,5 +54,7 @@ $(window).ready(function(){
            validarNombre(ul,nombre,e);
            validarEmail(ul,email,e);
            validarAsunto(ul,asunto,e);
-        })
+        });
+
+        
 });
