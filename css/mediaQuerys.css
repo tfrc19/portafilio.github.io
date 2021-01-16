@@ -140,4 +140,9 @@
         margin: 0px auto;
     }
 
+    /*Carrousel*/
+    .carousel-inner .carousel-item .imagenes-carrousel{
+        height: 300px;
+    }
+
 }
