@@ -23,6 +23,7 @@ $(window).ready(function(){
                 $('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
              // {"background-image":"url('img/fondo-pequeno.png')"});
                 $('#header').css({"background-image":"url('img/fondo-pequeno.png')"});
+                $('#header').css({"height":height-50});
             }
             else{
                 if(width>425&&width<=750){
