@@ -24,6 +24,7 @@ $(window).ready(function(){
              // {"background-image":"url('img/fondo-pequeno.png')"});
                 $('#header').css({"background-image":"url('img/fondo-pequeno.png')"});
                 $('#header').css({"height":height-50});
+                alert(width);
             }
             else{
                 if(width>425&&width<=750){
@@ -31,6 +32,8 @@ $(window).ready(function(){
                     $('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
                     $('#header').css({"background-image":"url('img/colores.jpg')"});
                     $('#header').css({"height":height});
+
+                    alert(width);
                 }
             }  
     }
