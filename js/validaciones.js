@@ -17,7 +17,7 @@ $(window).ready(function(){
     });
         //Funcion para modificar el header de forma dinamica
     function modificacionHeader(width, height){
-            if(width>=375&&width<=425)
+            if(width>=375&&width<=400)
             {
                 //alert('url("../img/fondo-pequeno.png")');
                 $('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
@@ -29,6 +29,7 @@ $(window).ready(function(){
                     //alert(screen.width+'px'+' '+screen.height+'px');
                     $('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
                     $('#header').css({"background-image":"url('img/colores.jpg')"});
+                    $('#header').css({"height":height});
                 }
             }  
     }
