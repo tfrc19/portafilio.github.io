@@ -17,7 +17,7 @@ $(window).ready(function(){
     });
         //Funcion para modificar el header de forma dinamica
     function modificacionHeader(width, height){
-            if(width>=375&&width<=400)
+            if(width>=375&&width<=425)
             {
                 //alert('url("../img/fondo-pequeno.png")');
                 $('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
