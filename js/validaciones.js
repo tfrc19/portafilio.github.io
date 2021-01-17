@@ -4,9 +4,37 @@ $(window).ready(function(){
         email = $('#email'),
         asunto = $('#asunto'),
         btnEnviar = $('#enviar');
-        
+        var alertaMensajes = $('#alerta-mensajes');
 
-    var alertaMensajes = $('#alerta-mensajes');
+        //Detectar la orientación del dispositivo 
+    $(window).on( "orientationchange", function( event ) {
+        var width = screen.width,
+            height = screen.height;
+            if(width>=375&&width<=750)
+        {
+            modificacionHeader(width, height);
+        }
+    });
+        //Funcion para modificar el header de forma dinamica
+    function modificacionHeader(width, height){
+            if(width>=375&&width<=425)
+            {
+                //alert('url("../img/fondo-pequeno.png")');
+                $('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
+             // {"background-image":"url('img/fondo-pequeno.png')"});
+                $('#header').css({"background-image":"url('img/fondo-pequeno.png')"});
+            }
+            else{
+                if(width>425&&width<=750){
+                    //alert(screen.width+'px'+' '+screen.height+'px');
+                    $('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
+                    $('#header').css({"background-image":"url('img/colores.jpg')"});
+                }
+            }  
+    }
+    
+    modificacionHeader(screen.width, screen.height);
+    
         function validarMensaje(ul, mensaje,e)
         {
             if(mensaje.val()==''){
