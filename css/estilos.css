@@ -6,10 +6,12 @@
 }
 
 header{
+
     width: 100%;
     background: #281a0c;
     background: url('../img/space.mp4');
-    background-image: url('../img/colores.jpg');
+    /*background-image: url('../img/colores.jpg');*/
+    background-image: url('../img/fondo4.jpg');
     background-size: cover;
     /*background-size: 100%;
     background-repeat: no-repeat;*/
@@ -17,6 +19,7 @@ header{
     background-position: center 0;
     opacity:1;
     height: 720px;
+    overflow: hidden;
 }
 
 header .container .row  .textos{
@@ -45,6 +48,57 @@ header .textos{
     margin-left: 15%;
     color: #fff;
     font-weight: bold;
+}
+/*Logo en el header*/
+header .contacto{
+    width: 10%;
+    text-align: end;
+    padding: 10px 20px;
+    color: #fff; 
+    overflow: hidden; 
+    padding-top: 20px;
+    float: right;
+}
+header .contacto .mostrar-contacto-social{
+    width: 100%;
+    align-content: space-between;
+    
+}
+header .contacto .social
+{
+    width: 100%;
+    
+}
+@keyframes slidein {
+    0%{margin-top: 5%}
+    25%{margin-top: 10%}
+    50%{margin-top: 15%; color: #000000;;}
+    100%{margin-top: 5%}
+  }
+@keyframes cambioColores{
+    0%{color: #ffffff;}
+    25%{color: #000000;}
+    50%{color: #000000;}
+    100%{color: #ffffff;}
+
+}
+
+header .contacto .social a,
+header .contacto .mostrar-contacto-social a{
+    display: block;
+    padding:5px 10px;
+    font-size: 20px;
+    color: #fff;
+}
+header .contacto .social a{
+    animation-duration: 3s;
+    animation-name: cambioColores;
+    animation-iteration-count: infinite;
+}
+header .contacto .mostrar-contacto-social a{
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
 }
 .navbar {
     background-color:  #ffffff;

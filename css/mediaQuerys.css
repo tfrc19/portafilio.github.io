@@ -3,6 +3,9 @@
     header {
         height: 650px;
     }
+    header .contacto{
+        display:none;
+    }
     header .container{
        margin-left: 20px;
        top: 80%;

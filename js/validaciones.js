@@ -23,7 +23,7 @@ $(window).ready(function(){
                 $('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
              // {"background-image":"url('img/fondo-pequeno.png')"});
                // $('#header').css({"background-image":"url('img/fondo-pequeno.png')"});
-               $('#header').css({"background-image":"url('img/iroman2.jpg')"});
+               $('#header').css({"background-image":"url('img/fondo4.jpg')"});
                 $('#header').css({"height":height-50});
             }
             else{
