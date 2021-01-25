@@ -53,7 +53,7 @@
             display: inline-block;
         }
 
-    .dow-up{
+    #dow-up{
         display: none;
         color:red;
     }
@@ -147,5 +147,63 @@
     .carousel-inner .carousel-item .imagenes-carrousel{
         height: 300px;
     }
+    #collapsibleNavId ul{
+        width: 100%;
+        margin-left: 10px;
+    }
+    #collapsibleNavId ul li{
+        margin-left: 20px;
+    }
+    #collapsibleNavId .nav-item .dropdown-menu{
+        border: none;
+        
+
+    }
+    #collapsibleNavId .nav-item .dropdown-menu a{
+        
+        margin-left: 10px;
+        /*color: #2271b3!important;*/
+        color: #cccccc!important;
+        font-weight: bold!important;
+    }
+    #collapsibleNavId .nav-item .dropdown-menu a:focus{
+        color: #000000!important;
+        background-color: #fff!important;
+        border-bottom: 1px solid #000000;
+    }
+    #dow-up{
+        display: none!important;
+    }
+    #btn-curriculum{
+        display: block!important;
+        
+        
+    }
+   
+    .dow-up {
+        width: 80%;
+        margin: 0px auto!important;
+        margin-top: 5px!important;
+        
+  
+    }
+    .dow-up #btn{
+        width: 100%!important;
+        justify-content: center!important;
+        align-items: center!important;
+        text-align: center!important;
+        align-items: center!important;
+    }
+    .contenedor-herramientas .bar .contenedor-img{
+        width: 70%!important;
+       
+
+    }
+    .contenedor-herramientas .bar .contenedor-img img{
+        width: 100%!important;
+        margin: 0px auto;
+        height: 70px!important;
+        }
+    
 
 }

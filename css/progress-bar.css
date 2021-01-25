@@ -1,0 +1,71 @@
+ .contenedor-herramientas .titulo-progress{
+    color: #000000!important;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .contenedor-herramientas .bar{
+     margin: 0px!important;
+     float: left;
+     margin: 10px 0px!important;
+ }
+
+ .contenedor-herramientas .bar .contenedor-img img{
+width: 100%!important;
+height: 40px!important;
+ }
+ .contenedor-herramientas .titulo-progress p{
+     width: 50%;
+     margin: 0px;
+    
+ }
+ .contenedor-herramientas .titulo-progress .porcentaje{
+    margin: 0px;
+    text-align: end;
+    color: #cccccc;
+}
+.progress .progress-bar-striped {
+    background-color: #000000!important;
+    animation: animated 5s both!important;
+}
+.progress .tamanio1{
+    width: 10%!important;
+}
+.progress .tamanio2{
+    width: 20%!important;
+}
+.progress .tamanio3{
+    width: 30%!important;
+}
+.progress .tamanio4{
+    width: 40%!important;
+}
+.progress .tamanio5{
+    width: 50%!important;
+}
+.progress .tamanio6{
+    width: 60%!important;
+}
+.progress .tamanio7{
+    width:70%!important;
+}
+.progress .tamanio8{
+    width: 80%!important;
+}
+.progress .tamanio9{
+    width: 90%!important;
+}
+.progress .tamanio10{
+    width: 100%!important;
+}
+@keyframes animated{
+    from{
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    to{
+        transform: matrix3d(0,0,0);
+    }
+}

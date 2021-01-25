@@ -12,7 +12,8 @@ $(document).ready(function(){
     proyectos =$('#proyectos'),
     herramientas =$('#herramientas'),
     blog =$('#blog'),
-    contacto =$('#contacto');
+    contacto =$('#contacto'),
+    certificaciones=$('#certificacion');
 
     inicio.on('click',function(e){
         e.preventDefault();
@@ -67,5 +68,9 @@ $(document).ready(function(){
     correoElectronico.on('click',function(e){
         e.preventDefault();
         $(location).attr('href','mailto:telmo_ferc@hotmail.com');
+    });
+    certificaciones.on('click',function(e){
+        e.preventDefault();
+        $(location).attr('href','view/certificaciones.html');
     });
 });

@@ -545,4 +545,12 @@ border-bottom: 1px dotted #cccccc;
     text-align: center;
     text-transform: uppercase;
 }
-
+.dow-up .btn:hover{
+    background-color: #fff!important;
+    color: #3b5998!important;
+  
+}
+.dow-up .btn:focus{
+    /*border: none!important;*/
+    box-shadow: none!important;
+}
