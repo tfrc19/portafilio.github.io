@@ -1,28 +1,8 @@
-/*$(document).ready(function(){
-    var inicio=$('#inicio'),
-        dropdownId=$('#acerca-de'),
-        blog=$('#blog'),
-        contacto=$('#contacto');
-
-        $('#')
-    $('#inicio').on('click',function(e){
-      alert("Hola");  
-      e.preventDefault();
-      $('#inicio').addClass('activo');
-    });
-
-    $('#blog').on('click',function(e){
-        alert("Hola");  
-
-       // $('#blog').addClass('activo');
-       // $('#blog').css('color','#cccccc');
-        $('#blog').addClass('text-light');
-        //$("#parrafo").css("color", "#000000");
-        e.preventDefault();
-      });
-});*/
 
 $(document).ready(function(){
+    var  toggleicon = $('#toggle-icon'),
+        toggleiconX = $('#toggle-icon-x');
+
     var inicio=$('#inicio'),
     dropdownId=$('#acerca-de'),
     blog=$('#blog'),
@@ -37,6 +17,19 @@ $(document).ready(function(){
             $('#logo-flotante').css('width','20%');
         }*/
     $('#logo-flotante').css('bottom',0);
+
+    toggleicon.on('click',function(e){
+        toggleicon.css({'display':'none'});
+       //$('#btn-navbar').append("<span class='toggle-icon-x' id='toggle-icon-x'>X</span>");
+        toggleiconX.css({'display':'block'});
+        toggleiconX.text('X');
+        
+    });
+    $('#toggle-icon-x').on('click',function(e){
+        toggleiconX.css({'display':'none'});
+        toggleicon.css({'display':'block'});
+    });
+    
     //alert(ventana_alto);
 
     function filename(){

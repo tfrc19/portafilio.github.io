@@ -554,3 +554,8 @@ border-bottom: 1px dotted #cccccc;
     /*border: none!important;*/
     box-shadow: none!important;
 }
+
+#toggle-icon-x{
+    color: #cccccc;
+    font-size: 25px;
+}
