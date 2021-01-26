@@ -559,3 +559,12 @@ border-bottom: 1px dotted #cccccc;
     color: #cccccc;
     font-size: 25px;
 }
+
+#btn-navbar:focus{
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
