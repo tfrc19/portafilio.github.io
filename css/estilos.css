@@ -20,9 +20,11 @@ header{
     background-attachment: fixed;
     background-position: center 0;
     opacity:1;
-    height: 720px;
+    /*height: 720px;*/
+    height: 93vh;
     overflow: hidden;
     background-repeat: repeat;
+    /*clip-path: circle(195vh at 70% -80vh);*/
 }
 
 header .container .row  .textos{
@@ -108,7 +110,13 @@ header .contacto .social
     50%{color: #000000;}
     100%{color: #ffffff;}
 }
-
+@keyframes animacionDowUp{
+   0%{margin-top: 0px; color: #cccccc;}
+   25%{margin-top: 1px; color: #000000;}
+   50%{margin-top: 2px; color: #cccccc;}
+   75%{margin-top: 3px; color: #000000;}
+   100%{margin-top: 0px; color: #cccccc;}
+}
 header .contacto .social a,
 header .contacto .mostrar-contacto-social a{
     display: block;
@@ -230,7 +238,10 @@ display: inline-block;
     margin-right: 50px;
 }
 .dow-up a{
-    color: #cccccc;
+    color: #cccccc;   
+}
+#dow-up,#dow-up a {
+    animation: animacionDowUp 2s infinite;
 }
 #menu{
     border-bottom: 1px solid rgba(245, 245, 245, 1);
