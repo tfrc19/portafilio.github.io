@@ -68,6 +68,11 @@ header .content p{
     line-height: 40px;
     
 }
+.redesSociales .contenedor .social-media a{
+       animation: animacionSocial 5s 1 !important;
+       
+        
+    }
 .redesSociales .contenedor .dow-up{
     overflow: hidden;
    
@@ -87,6 +92,16 @@ header .content p{
     margin-top:20px;
     
 
+}
+@keyframes animacionSocial{
+    from{
+        color: #ffffff;
+        opacity: 0.1;
+    }
+    to{
+         color: #000000;
+        opacity: 1;
+    }
 }
 @keyframes animacionRow{
     from{
@@ -135,6 +150,7 @@ header .content p{
     
     .redesSociales .contenedor .social-media a{
         color: #ffffff;
+        
     }
     .redesSociales .contenedor .dow-up{
 
