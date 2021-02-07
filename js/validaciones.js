@@ -20,17 +20,18 @@ $(window).ready(function(){
             if(width>=375&&width<=425)
             {
                 //alert('url("../img/fondo-pequeno.png")');
+                //$('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
                 $('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
              // {"background-image":"url('img/fondo-pequeno.png')"});
                // $('#header').css({"background-image":"url('img/fondo-pequeno.png')"});
-               $('#header').css({"background-image":"url('img/fondo4.jpg')"});
-                $('#header').css({"height":height-50});
+               $('#header').css({"background-image":"url('img/darkWallpaper.png')"},{"height":"70vh"});
+                //$('#header').css({"height":height-50});
             }
             else{
                 if(width>425&&width<=750){
                     //alert(screen.width+'px'+' '+screen.height+'px');
                     $('#header').css({"background-size":width+'px'+' '+height+'px'},{"background-repeat":"no-repeat"});
-                    $('#header').css({"background-image":"url('img/colores.jpg')"});
+                    $('#header').css({"background-image":"url('img/darkWallpaper3.jpg')"});
                     $('#header').css({"height":height});
                 }
             }  

@@ -124,14 +124,17 @@ header .content p{
        max-width: 100%;
        background-image: url("../img/fondo.jpg");
        clip-path: none;
+       height: 50vh;
     }
     header .content{
         width: 90%;
         margin-left: 15px;
         margin-right: 0px;
-        top:80%;
+        top:75%!important;
         border-left:3px solid#ffffff;
         border-right: none;
+        /*margin-bottom: 20px!important;*/
+        
         
     }
     header .content h1{
@@ -143,6 +146,7 @@ header .content p{
     }
     .redesSociales{
         margin-top: -45px;
+        display: none;
     }
      .redesSociales .contenedor .social-media{
         display: none;
@@ -178,6 +182,12 @@ header .content p{
     }
     #dow-up{
             animation: animacionRow 2s infinite!important;
+    }
+    #curriculum{
+        display: none;
+    }
+    #menu{
+        margin-top: 0px!important;
     }
 }
 

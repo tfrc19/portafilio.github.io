@@ -148,7 +148,7 @@
         height: 300px;
     }
     #collapsibleNavId ul{
-        width: 100%;
+        width: 100%!important;
         margin-left: 10px;
     }
     #collapsibleNavId ul li{

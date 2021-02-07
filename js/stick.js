@@ -15,7 +15,7 @@ $(document).ready(function () {
             $('#contenidoMenu').show(2000);
             if ($(window).scrollTop() >= origOffsetY) {
                 $('#menu').addClass('sticky');
-                $('.content').addClass('menu-padding');
+                //$('.content').addClass('menu-padding');
                 $('#navbar').addClass('fixed-top');
                 $('#dow-up').css("display","none");
                 
