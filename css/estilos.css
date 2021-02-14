@@ -244,7 +244,10 @@ display: inline-block;
     animation: animacionDowUp 2s infinite;
 }
 #menu{
-    border-bottom: 1px solid rgba(245, 245, 245, 1);
+    border-bottom: 1px solid rgba(245, 245, 245, 1)!important;
+    /*background-color: red!important;
+    width: 100vw!important;
+    margin-top: 50px!important;*/
 }
 .titulo-menu{
     display: none;

@@ -190,7 +190,33 @@ header .content p{
         margin-top: 0px!important;
     }
 }
-
+@media screen and (max-width:850px){
+    header .content{
+        top: 70%;
+    }
+    .redesSociales .contenedor{
+        margin:0px 0px;
+        top: 70%;
+    }
+    footer .container .enlaces-sociales,
+    footer .container .copyright{
+        
+        margin: 0px auto;
+        margin-top: 5px !important;
+        text-align: center!important;
+        width: 100%;
+    }
+    footer .container .enlaces-sociales{
+        width: 70%!important;
+        margin:0px 15%;
+    }
+    footer .container .enlaces-sociales a{
+        text-align: center!important;
+    }
+    footer .container .copyright{
+        margin-left: 0px !important;
+    }
+}
 @media screen and (max-width:700px){
     header
     {
